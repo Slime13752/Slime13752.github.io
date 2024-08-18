@@ -1,0 +1,348 @@
+.lemon-regular{
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#grid-sketch {
+	display: grid;
+	grid-template-areas: 
+		'first-sketch'
+		'second-sketch'
+		'third-sketch';
+	width: 98%;
+	row-gap: 20px;
+}
+
+body {
+	font-family: Verdana;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #f6edf6;
+	margin-bottom: 0px;
+}
+
+main {
+	padding-left: 2%;
+}
+
+h1 {
+	font-family: "Lemon";
+}
+
+h2 {
+	font-family: "Lemon";
+}
+
+h3 {
+	font-family: "Lemon";
+	font-size: 140%;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#labels-sketch {
+	grid-area: labels-sketch;
+}
+
+#first-sketch {
+	grid-area: first-sketch;
+	background-color: rgba(79, 206, 249, 0.8);
+	border: 7px solid rgba(56, 158, 220, 0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+#second-sketch {
+	grid-area: second-sketch;
+	background-color: rgba(56, 158, 220, 0.8);
+	border: 7px solid rgba(35, 115, 196, 0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+#third-sketch {
+	grid-area: third-sketch;
+	background-color: rgba(35, 115, 196, 0.8);
+	border: 7px solid rgba(19, 75, 169, 0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+.single-grid-sketch {
+	display: grid;
+	grid-template-areas: 
+		'sketch pros';
+	grid-template-columns: 55% 45%;
+	text-align: left;
+	width: 100%;	
+}
+
+.sketch img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.single-grid-sketch .sketch {
+	padding-left: 15px;
+	margin-top: 0px;
+}
+
+video {
+	width: 82%;
+	margin-left: 4%;
+	border-radius: 25px;
+	margin-right: 0px;
+}
+
+.left{
+	margin-left:-200px
+}
+
+@media screen and (max-width:900px)
+{
+	.single-grid-sketch {
+		display: grid;
+		grid-template-areas: 
+			'sketch'
+			'pros';
+		grid-template-columns: 100%;
+		text-align: left;
+		width: 100%;	
+	}
+	.pros{
+		margin: 25px;
+	}
+	
+	.sketch img {
+		width: 100%;
+	}
+	
+	.sketch {
+		padding: 0px;
+		margin: 10px;
+		margin-right: 20px;
+	}
+	
+	#third-sketch video {
+		padding: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 92%;
+	}
+	
+}
+
+
+/* Below 850 pixels*/
+@media screen and (max-width:800pt)
+{
+	.single-grid-sketch {
+		display: grid;
+		grid-template-areas: 
+			'sketch'
+			'pros';
+		grid-template-columns: 100%;
+		text-align: left;
+		width: 100%;	
+	}
+	.pros{
+		margin: 25px;
+	}
+	
+	.sketch img {
+		width: 100%;
+	}
+	
+	.sketch {
+		padding: 0px;
+		margin: 10px;
+		margin-right: 20px;
+	}
+	
+	#third-sketch video {
+		padding: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 92%;
+	}
+	.left{
+		margin-left:0px;
+	}
+	
+}
+
+
+.sketch {
+	grid-area: sketch;
+}
+
+figure {
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+
+
+.pros {
+	grid-area: pros;
+}
+
+
+.single-grid-sketch .pros ul {
+	padding-left: 25px;
+	margin-top: 0px;
+}
+
+
+#labels-sketch .sketch {
+	margin-top: auto;
+}
+
+header {
+	 background-color: #333;
+	 color: white;
+	 width: 100%;
+	 margin-left: 0px;
+	 margin-right: 0px;
+}
+
+footer {
+	 background-color: #333;
+	 color: white;
+	 width: 100%;
+	 margin-left: 0px;
+	 margin-right: 0px;
+	 margin-bottom: 0px;
+}
+
+.navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navlinks li {
+  float: left;
+}
+
+.navlinks li a {
+  display: block;
+   color: #f6edf6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlinks li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: rgba(79, 206, 249, 0.8);
+	display: block;
+	color: #111;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#jacobshaw {
+	font-family: "Lemon";
+	font-size: 200%;
+	text-align: center;
+	padding-top: 10px;
+	color: #f6edf6;
+}
+
+#footer-header {
+	font-size: 150%;
+	text-align: center;
+	padding-top: 10px;
+	color: #f6edf6;
+}
+
+
+.final-video {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

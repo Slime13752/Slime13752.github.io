@@ -1,0 +1,581 @@
+{
+    "images": [
+        {
+            "name": "Barrel",
+            "number": "2",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Barrel.png"
+        },
+        {
+            "name": "Bluebells",
+            "number": "3",
+            "total": "83",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/BluebellsAnimation.gif"
+        },
+        {
+            "name": "Blue Earrings",
+            "number": "4",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/BlueEarrings.png"
+        },
+        {
+            "name": "Blue Gem",
+            "number": "5",
+            "total": "83",
+            "description": "The raw material for all blue jewelry in Jaded.",
+            "url": "./art/BlueGem.png"
+        },
+        {
+            "name": "Blue Lightning",
+            "number": "6",
+            "total": "83",
+            "description": "A powerful lightning spell I made for Wish Guardian.",
+            "url": "./art/BlueLightningStorm.png"
+        },
+        {
+            "name": "Blue Necklass",
+            "number": "7",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/BlueNecklass.png"
+        },
+        {
+            "name": "Blue Ring",
+            "number": "8",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/BlueRing.png"
+        },
+        {
+            "name": "Bridge With Rails",
+            "number": "9",
+            "total": "83",
+            "description": "A bridge that has railroads going along it, made for Wish Guardian.",
+            "url": "./art/BridgeWithRails.png"
+        },
+        {
+            "name": "Cleaver",
+            "number": "10",
+            "total": "83",
+            "description": "A spell used in Wish Guardian to cheaply deal damage.",
+            "url": "./art/Cleaver.png"
+        },
+        {
+            "name": "Clock",
+            "number": "11",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays information such as time and date.",
+            "url": "./art/Clock.png"
+        },
+        {
+            "name": "Damage Up",
+            "number": "12",
+            "total": "83",
+            "description": "A tower defense ability used to increase the amount of damage towers deal in Wish Guardian.",
+            "url": "./art/DamageUp.png"
+        },
+        {
+            "name": "Dandelion",
+            "number": "13",
+            "total": "83",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/DandelionAnimation.gif"
+        },
+        {
+            "name": "Dialogue Area",
+            "number": "14",
+            "total": "83",
+            "description": "A block of stone that appears in Wish Guardian's UI to display the words that NPCs are saying.",
+            "url": "./art/DialogueArea.png"
+        },
+        {
+            "name": "Dirt",
+            "number": "15",
+            "total": "83",
+            "description": "A dirt tile used in Wish Guardian for places where players can plant their crops.",
+            "url": "./art/Dirt.png"
+        },
+        {
+            "name": "Dirt 2",
+            "number": "16",
+            "total": "83",
+            "description": "A dirt tile used in Jaded to build the scenery.",
+            "url": "./art/Dirt2.png"
+        },
+        {
+            "name": "Energy Bar",
+            "number": "17",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays how much energy the player has left.",
+            "url": "./art/energyBar.png"
+        },
+        {
+            "name": "Fire Volley",
+            "number": "18",
+            "total": "83",
+            "description": "A spell in Wish Guardian that is intended to burn or melt other cards for card combos.",
+            "url": "./art/FireVolley.png"
+        },
+        {
+            "name": "Flower Crown",
+            "number": "19",
+            "total": "83",
+            "description": "A spell in Wish Guardian that is used to pacifiy enemy Wraiths.",
+            "url": "./art/FlowerCrown.png"
+        },
+        {
+            "name": "Galaxy",
+            "number": "20",
+            "total": "83",
+            "description": "A pretty spell in Wish Guardian. Use is still being determined.",
+            "url": "./art/Galaxy.png"
+        },
+        {
+            "name": "Glass Castle",
+            "number": "21",
+            "total": "83",
+            "description": "A result of using fire volley on a sand castle. The castle seems fragile.",
+            "url": "./art/GlassCastle.png"
+        },
+        {
+            "name": "Grass",
+            "number": "22",
+            "total": "83",
+            "description": "Bright green grass for Wish Guardian that is used on the surface level.",
+            "url": "./art/Grass.png"
+        },
+        {
+            "name": "Grass 2",
+            "number": "23",
+            "total": "83",
+            "description": "Dark green grass for Jaded that is used to build scenery.",
+            "url": "./art/Grass2.png"
+        },
+        {
+            "name": "Green Earrings",
+            "number": "24",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/GreenEarrings.png"
+        },
+        {
+            "name": "Green Necklass",
+            "number": "25",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/GreenNecklass.png"
+        },
+        {
+            "name": "Green Ring",
+            "number": "26",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/GreenRing.png"
+        },
+        {
+            "name": "Hamburger Menu",
+            "number": "27",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used to pull up a menu.",
+            "url": "./art/HamburgerMenu.png"
+        },
+        {
+            "name": "Ice Blade",
+            "number": "28",
+            "total": "83",
+            "description": "A spell in Wish Guardian that uses a sword to deal damage.",
+            "url": "./art/IceBlade.png"
+        },
+        {
+            "name": "Ice Ring",
+            "number": "29",
+            "total": "83",
+            "description": "A spell in Wish Guardian that creates a protective ring of ice around the user.",
+            "url": "./art/IceRing.png"
+        },
+        {
+            "name": "Ice Sculpture",
+            "number": "30",
+            "total": "83",
+            "description": "A spell in Wish Guardian that creates a distracting sculpture.",
+            "url": "./art/IceSculpture.png"
+        },
+        {
+            "name": "Ice Volley",
+            "number": "31",
+            "total": "83",
+            "description": "A spell in Wish Guardian that shoots a ball of ice intended to create some card combos.",
+            "url": "./art/IceVolley.png"
+        },
+        {
+            "name": "Inventory Bar",
+            "number": "32",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays all the tools the player has.",
+            "url": "./art/InventoryBar.png"
+        },
+        {
+            "name": "Inventory Defense",
+            "number": "33",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays all the tower materials the player has.",
+            "url": "./art/InventoryDefense.png"
+        },
+        {
+            "name": "Inventory Player",
+            "number": "34",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays everything in the player's inventory.",
+            "url": "./art/InventoryPlayer.png"
+        },
+        {
+            "name": "Iris",
+            "number": "35",
+            "total": "83",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/Iris.png"
+        },
+        {
+            "name": "Minecart",
+            "number": "36",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Minecart.png"
+        },
+        {
+            "name": "Pause Screen Sprite",
+            "number": "37",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is displayed when the game is paused.",
+            "url": "./art/PauseScreen9Sprite.png"
+        },
+        {
+            "name": "Poison Barrel",
+            "number": "38",
+            "total": "83",
+            "description": "A poison spell used in Wish Guardian.",
+            "url": "./art/PoisonBarrel.png"
+        },
+        {
+            "name": "Railroad 1",
+            "number": "39",
+            "total": "83",
+            "description": "A piece of railroad tracks that miners used to use to get around in Wish Guardian.",
+            "url": "./art/Railroad1.png"
+        },
+        {
+            "name": "Railroad 2",
+            "number": "40",
+            "total": "83",
+            "description": "A piece of railroad tracks that miners used to use to get around in Wish Guardian.",
+            "url": "./art/Railroad2.png"
+        },
+        {
+            "name": "Railroad 3",
+            "number": "41",
+            "total": "83",
+            "description": "A piece of railroad tracks that miners used to use to get around in Wish Guardian.",
+            "url": "./art/Railroad3.png"
+        },
+        {
+            "name": "Railroad Connector",
+            "number": "42",
+            "total": "83",
+            "description": "A piece of railroad tracks that miners used to use to get around in Wish Guardian.",
+            "url": "./art/RailroadConnector.png"
+        },
+        {
+            "name": "Railroad Corner",
+            "number": "43",
+            "total": "83",
+            "description": "A piece of railroad tracks that miners used to use to get around in Wish Guardian.",
+            "url": "./art/RailroadCorner.png"
+        },
+        {
+            "name": "Rainbow",
+            "number": "44",
+            "total": "83",
+            "description": "A pretty spell in Wish Guardian. Use is still being determined.",
+            "url": "./art/Rainbow.png"
+        },
+        {
+            "name": "Red Earrings",
+            "number": "45",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/RedEarrings.png"
+        },
+        {
+            "name": "Red Necklass",
+            "number": "46",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/RedNecklass.png"
+        },
+        {
+            "name": "Red Ring",
+            "number": "47",
+            "total": "83",
+            "description": "A piece of jewelry that I made for a game called Jaded.",
+            "url": "./art/RedRing.png"
+        },
+        {
+            "name": "Rose",
+            "number": "48",
+            "total": "83",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/Rose.png"
+        },
+        {
+            "name": "Sac Tree",
+            "number": "49",
+            "total": "83",
+            "description": "A Sac Tree, one of the main wood trees of Wish Guardian.",
+            "url": "./art/SacTreeAnimation.gif"
+        },
+        {
+            "name": "Sand Attack",
+            "number": "50",
+            "total": "83",
+            "description": "A sand spell in Wish Guardian where you throw sand at your opponent.",
+            "url": "./art/SandAttack.png"
+        },
+        {
+            "name": "Sand Castle",
+            "number": "51",
+            "total": "83",
+            "description": "A sand spell in Wish Guardian where you distract your opponent with a castle.",
+            "url": "./art/SandCastle.png"
+        },
+        {
+            "name": "Shield Animation",
+            "number": "52",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that displays how much shielding the player has acquired.",
+            "url": "./art/ShieldAnimation.gif"
+        },
+        {
+            "name": "Shovel",
+            "number": "53",
+            "total": "83",
+            "description": "A tool that I designed that the player can use to prepare dirt for planting crops.",
+            "url": "./art/Shovel.png"
+        },
+        {
+            "name": "Star Pond",
+            "number": "54",
+            "total": "83",
+            "description": "My first shaded asset, this pond is used for the scenery of Wish Guardian.",
+            "url": "./art/StarPond.png"
+        },
+        {
+            "name": "Stoned Wraith",
+            "number": "55",
+            "total": "83",
+            "description": "Before combat in Wish Guardian, stoned wraiths are placed on the field for where wraiths will appear when combat is started",
+            "url": "./art/StonedWraith.png"
+        },
+        {
+            "name": "Stone Sign",
+            "number": "56",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used for menu buttons.",
+            "url": "./art/StoneSign.png"
+        },
+        {
+            "name": "Stone Sign 2",
+            "number": "57",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used for menu buttons.",
+            "url": "./art/StoneSign2.png"
+        },
+        {
+            "name": "Sunflower",
+            "number": "58",
+            "total": "83",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/SunflowerGrowthStages.png"
+        },
+        {
+            "name": "Text Area",
+            "number": "59",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used for menu buttons.",
+            "url": "./art/textArea1.png"
+        },
+        {
+            "name": "Text Area 2",
+            "number": "60",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used for menu buttons.",
+            "url": "./art/textArea2.png"
+        },
+        {
+            "name": "Text Area 3",
+            "number": "61",
+            "total": "83",
+            "description": "A piece of Wish Guardian's UI that is used for menu buttons.",
+            "url": "./art/textArea3.png"
+        },
+        {
+            "name": "Electric Double Mushroom",
+            "number": "62",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft electric spells.",
+            "url": "./art/Tier1ElectricDoubleMushroom.gif"
+        },
+        {
+            "name": "Ice Double Mushroom",
+            "number": "63",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft ice spells.",
+            "url": "./art/Tier1IceDoubleMushroom.gif"
+        },
+        {
+            "name": "Poison Double Mushroom",
+            "number": "64",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft poison spells.",
+            "url": "./art/Tier1PoisonDoubleMushroom.gif"
+        },
+        {
+            "name": "Thorn Mushroom",
+            "number": "65",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft thorn spells.",
+            "url": "./art/Tier1ThornMushroom.gif"
+        },
+        {
+            "name": "Water Mushroom",
+            "number": "66",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft water spells.",
+            "url": "./art/Tier1WaterMushroom.gif"
+        },
+        {
+            "name": "Tier 2 Fire Mushroom",
+            "number": "67",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft tier 2 fire spells.",
+            "url": "./art/Tier2FireMushroom.gif"
+        },
+        {
+            "name": "Tier 2 Plus Mushroom",
+            "number": "68",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft tier 2 support spells.",
+            "url": "./art/Tier2PlusMushroom.gif"
+        },
+        {
+            "name": "Tier 2 Sand Mushroom",
+            "number": "69",
+            "total": "83",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft tier 2 sand spells.",
+            "url": "./art/Tier2SandMushroom.gif"
+        },
+        {
+            "name": "Torch",
+            "number": "70",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Torch.gif"
+        },
+        {
+            "name": "Training Dummy",
+            "number": "71",
+            "total": "83",
+            "description": "A prop used in Wish Guardian's combat tutorial.",
+            "url": "./art/Training_dummy.png"
+        },
+        {
+            "name": "Tulips",
+            "number": "72",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Tulips.png"
+        },
+        {
+            "name": "Vine",
+            "number": "73",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Vine1.png"
+        },
+        {
+            "name": "Vine 2",
+            "number": "74",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Vine2.png"
+        },
+        {
+            "name": "Vine 3",
+            "number": "75",
+            "total": "83",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Vine3.png"
+        },
+        {
+            "name": "Vine Staff",
+            "number": "76",
+            "total": "83",
+            "description": "A spell in Wish Guardian used to entangle wraiths.",
+            "url": "./art/VineStaff.png"
+        },
+        {
+            "name": "Water",
+            "number": "77",
+            "total": "83",
+            "description": "One of Wish Guardian's tiles, used to show where bodies of water are.",
+            "url": "./art/Water.png"
+        },
+        {
+            "name": "Water Ring",
+            "number": "78",
+            "total": "83",
+            "description": "A spell in Wish Guardian used to create a ring of protective water.",
+            "url": "./art/WaterRing.png"
+        },
+        {
+            "name": "Water Staff",
+            "number": "79",
+            "total": "83",
+            "description": "A spell in Wish Guardian used to splash wraiths with water.",
+            "url": "./art/WaterStaff.png"
+        },
+        {
+            "name": "Wood Beam",
+            "number": "80",
+            "total": "83",
+            "description": "A beam of wood that miners use to support the roof of the caves they dig in Wish Guardian.",
+            "url": "./art/WoodBeam.png"
+        },
+        {
+            "name": "Yellow Fire",
+            "number": "81",
+            "total": "83",
+            "description": "A spell in Wish Guardian that hurls a ball of fire at the opponent.",
+            "url": "./art/YellowFire.png"
+        },
+        {
+            "name": "Yellow Firewall",
+            "number": "82",
+            "total": "83",
+            "description": "A spell in Wish Guardian that creates a protective wall of fire between you and the enemy wraiths.",
+            "url": "./art/YellowFirewall.png"
+        },
+        {
+            "name": "Yellow Phoenix",
+            "number": "83",
+            "total": "83",
+            "description": "A spell in Wish Guardian that creates a powerful phoenix that blasts the opponents with fire for one turn.",
+            "url": "./art/YellowPhoenix.png"
+        }
+        
+        
+        
+    ]
+}
