@@ -56,12 +56,36 @@ document.querySelector(".next").addEventListener('click', () => { plusSlides(1) 
 
 let delay = 100000;
 let fps = 60;
+let timeoutID;
+let buttonClicks = 1;
 const loop = () => {
-    setTimeout(loop, delay / fps);
-    plusSlides(1);
+    
+    if(buttonClicks == 1 || buttonClicks == 2){
+        timeoutID = setTimeout(loop, delay / fps);
+        plusSlides(1);
+    }
+    
+    
+}
+const stopLoop = () => {
+    clearTimeout(timeoutID);
 }
 
 loop();
 
+// make the play button work
+document.querySelector("#play").addEventListener('click', () => { 
+    loop(); 
+    buttonClicks += 1;
+    loop();
+    //console.log(buttonClicks);
+}); 
+
+// make the pause button work
+document.querySelector("#pause").addEventListener('click', () => { 
+    stopLoop(); 
+    buttonClicks = 0; 
+    //console.log(buttonClicks);
+}); 
 
 export{imageDescription};
