@@ -1,4 +1,4 @@
-import { showSlides, plusSlides } from "./slideshow.js";
+import { showSlides, plusSlides } from "./slideshow2.js";
 import { loadImages } from "./xhr.js";
 
 let imageDescription = {};
@@ -47,7 +47,7 @@ const makeImages = (jsonString) => {
 
 }
 
-loadImages(makeImages, "./data/image-data.json"); //need to actually call load images in order to generate every image from your JSON
+loadImages(makeImages, "./data/image-data2.json"); //need to actually call load images in order to generate every image from your JSON
 
 showSlides(1); // display the first slide in the loop by default
 

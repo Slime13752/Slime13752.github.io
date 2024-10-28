@@ -1,0 +1,77 @@
+{
+    "images": [
+        {
+            "name": "Barrel",
+            "number": "2",
+            "total": "11",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Barrel.png"
+        },
+        {
+            "name": "Bluebells",
+            "number": "3",
+            "total": "11",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/BluebellsAnimation.gif"
+        },
+        {
+            "name": "Dandelion",
+            "number": "4",
+            "total": "11",
+            "description": "A crop in Wish Guardian's NPC area that adds to the scenery.",
+            "url": "./art/DandelionAnimation.gif"
+        },
+        {
+            "name": "Dirt",
+            "number": "5",
+            "total": "11",
+            "description": "A dirt tile used in Wish Guardian for places where players can plant their crops.",
+            "url": "./art/Dirt.png"
+        },
+        {
+            "name": "Grass",
+            "number": "6",
+            "total": "11",
+            "description": "Bright green grass for Wish Guardian that is used on the surface level.",
+            "url": "./art/Grass.png"
+        },
+        {
+            "name": "Ice Ring",
+            "number": "7",
+            "total": "11",
+            "description": "A spell in Wish Guardian that creates a protective ring of ice around the user.",
+            "url": "./art/IceRing.png"
+        },
+        {
+            "name": "Minecart",
+            "number": "8",
+            "total": "11",
+            "description": "A prop used to add detail to Wish Guardian.",
+            "url": "./art/Minecart.png"
+        },
+        {
+            "name": "Sac Tree",
+            "number": "9",
+            "total": "11",
+            "description": "A Sac Tree, one of the main wood trees of Wish Guardian.",
+            "url": "./art/SacTreeAnimation.gif"
+        },
+        {
+            "name": "Shield Animation",
+            "number": "10",
+            "total": "11",
+            "description": "A piece of Wish Guardian's UI that displays how much shielding the player has acquired.",
+            "url": "./art/ShieldAnimation.gif"
+        },
+        {
+            "name": "Electric Double Mushroom",
+            "number": "11",
+            "total": "11",
+            "description": "One of the many crops of Wish Guardian used to craft spells. This one is used to craft electric spells.",
+            "url": "./art/Tier1ElectricDoubleMushroom.gif"
+        }
+        
+        
+        
+    ]
+}

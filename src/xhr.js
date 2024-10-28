@@ -2,8 +2,7 @@
  * Uses XML to download a file.
  * @param {*} callbackRef The function to call when the file is parsed.
  */
-export const loadImages = (callbackRef) => {
-    const url = "./data/image-data.json";
+export const loadImages = (callbackRef, url) => {
 	const xhr = new XMLHttpRequest();
 	// 1. set `onerror` handler
 	xhr.onerror = (e) => console.log("error");
