@@ -47,12 +47,15 @@ const makeImages = (jsonString) => {
 
 }
 
+
+
 loadImages(makeImages, "./data/image-data.json"); //need to actually call load images in order to generate every image from your JSON
 
 showSlides(1); // display the first slide in the loop by default
 
 document.querySelector(".prev").addEventListener('click', () => { plusSlides(-1) }); // make the previous button work
 document.querySelector(".next").addEventListener('click', () => { plusSlides(1) }); // make the next button work
+
 
 let delay = 100000;
 let fps = 60;

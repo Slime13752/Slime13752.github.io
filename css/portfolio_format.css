@@ -360,6 +360,18 @@ footer {
 	width: 100%;
 }
 
+.hide {
+	background-color: #d50303;/* Red */
+	border: none;
+	color: white;
+	padding: 15px 13px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 0px;
+	margin-left:-200px;
+}
+
 #play {
 	background-color: #03d588;/* Green */
 	border: none;
@@ -380,4 +392,9 @@ footer {
 	text-decoration: none;
 	font-size: 14px;
 	margin-bottom: 0px;
+}
+
+.centered{
+	margin-left: auto;
+	margin-right: auto;
 }

@@ -47,12 +47,34 @@ const makeImages = (jsonString) => {
 
 }
 
+const hideShowText = (textClass, buttonID) =>{
+    const elementList = document.querySelectorAll(textClass);
+    if(elementList[0].disabled){
+        for(let i = 0; i < elementList.length; i++){
+            elementList[i].disabled = false;
+            elementList[i].style.display = "block";
+            document.querySelector(buttonID).innerHTML = "Hide Text"
+        }
+    }else{
+        for(let i = 0; i < elementList.length; i++){
+            elementList[i].disabled = true;
+            elementList[i].style.display = "none";
+            document.querySelector(buttonID).innerHTML = "Show Text"
+        }
+    }
+}
+hideShowText(".one", "#uno");
+hideShowText(".two", "#dos");
+hideShowText(".three", "#tres");
 loadImages(makeImages, "./data/image-data2.json"); //need to actually call load images in order to generate every image from your JSON
 
 showSlides(1); // display the first slide in the loop by default
 
 document.querySelector(".prev").addEventListener('click', () => { plusSlides(-1) }); // make the previous button work
 document.querySelector(".next").addEventListener('click', () => { plusSlides(1) }); // make the next button work
+document.querySelector("#uno").addEventListener('click', () => {hideShowText(".one", "#uno")});
+document.querySelector("#dos").addEventListener('click', () => {hideShowText(".two", "#dos")});
+document.querySelector("#tres").addEventListener('click', () => {hideShowText(".three", "#tres")});
 
 let delay = 100000;
 let fps = 60;
