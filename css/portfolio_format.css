@@ -103,6 +103,18 @@ video {
 	margin-left: -200px
 }
 
+.hide {
+	background-color: #d50303;/* Red */
+	border: none;
+	color: white;
+	padding: 15px 13px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 0px;
+	margin-left:-200px;
+}
+
 @media screen and (max-width:900px) {
 	.single-grid-sketch {
 		display: grid;
@@ -364,17 +376,6 @@ footer {
 	width: 100%;
 }
 
-.hide {
-	background-color: #d50303;/* Red */
-	border: none;
-	color: white;
-	padding: 15px 13px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 14px;
-	margin-bottom: 0px;
-	margin-left:-200px;
-}
 
 #play {
 	background-color: #03d588;/* Green */
