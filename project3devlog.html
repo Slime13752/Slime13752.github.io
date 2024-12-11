@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/portfolio_format.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<p>
+		It took about 3 hours and some help from ChatGPT, but eventually I was able to get a prototype game working
+		where
+		there is a blue player circle that can move around a world. I was able to build up most of my framework myself
+		where I created some tabbars like we learned to from a video and I created overlays just like demonstrated in
+		class.
+	</p>
+
+	<p>
+		I had to get a bit creative with how to handle players and cells in this world. Cells ended up getting a list of
+		all
+		entities and a list of all players, whereas players only needs a list of players. Players needs a list of
+		players so that
+		when a player dies, it can remove itself from the list of players and from the draw calls. Cells need a list of
+		players
+		to check their collisions against these players and handle all the death logic. Cells also need a list of
+		entities to
+		remove themselves from that list and from the draw calls.
+	</p>
+
+	<p>
+		ChatGPT helped me out with giving me some sample code of how to change the color of a sprite. You essentially
+		need to make
+		a colorfilter and then turn that color filter into a paint and feed the paint into the sprite.
+	</p>
+
+	<p>
+		ChatGPT helped me out again with giving me a collison detection method. It mostly works, but visually, the
+		circles of the player
+		and the circles of the cells are not the right size. At first, I tried to fix the cell size by altering the
+		srcSize property of
+		the sprites. This, however, made the cells appear smaller as they got bigger. The solution I found that works is
+		altering the scale
+		property of the player/cell instead.
+	</p>
+
+	<p>
+		It took about 2 hours, but I finally got some random cell generation into the game. I had to mess around with
+		adding a timer to the game,
+		and for whatever reason, the game doesn't like me calling update within the game and within the cells. So, I
+		pass the timer update function
+		into the player and the player handles updating the timer and generating more cells. I made a condition that
+		only the first player in the
+		player list will update the timer. Hopefully, adding and removing players from the list will not mess with the
+		timer logic.
+	</p>
+
+	<p>
+		I spent about 2 hours trying to get the player score to update on the UI of the main overlay. I ended up going
+		to class on 11/12/2024 to ask
+		about this problem, and it turned out the solution to my problem was using a game provider which we had not yet
+		covered in class!
+	</p>
+
+	<p>
+		I had to pause development for a good while in November just to deal with other courses. However, on 11/27/2024,
+		I finished the basic game loop.
+		For a while, the player dying would just make them disappear. You wouldn't be informed that you died or be
+		allowed to play again. Now, when
+		the player dies, a gameover overlay will appear! You can press a button to try again, which will take you back
+		to the title screen. After that,
+		you can spawn again as a player with the start game button. It took a good amount of trial and error, but in the
+		end what made my reset code
+		work perfectly was simply repeating the code that spawns the starting player, and not executing the entire
+		onLoad function. This took 30 minutes.
+	</p>
+
+	<p>
+		After about 3 hours of work on 11/27/2024, I got the player to have a split button! This button mostly works as
+		intended. When the player splits,
+		it is like they have extra lives. The game is only over when all of their cells are dead. However, when the
+		player splits, the new cells don't
+		move at all. This could be useful but I wanted for the cells to launch themselves in the same direction the
+		player is moving. How I aimed to
+		achieve this "launch" was adding a speed multiplier to how fast the newly made cells move. However, I am not
+		particularly noticing a faster
+		speed for the cells. I am sure I can get this launch feature to work, it will just take tweaking.
+	</p>
+	<p>
+		After about 2 hours of work on 11/29/2024, I got a leaderboard started. It took a while to figure out how to
+		read and write an entire
+		leaderboard into both shared preferences and just into a Tabbar as well. Currently, the leaderboard only works
+		before the game starts.
+		I think I will move the leaderboard into the game itself as another overlay.
+	</p>
+	<p>
+		It took about 20 minutes to add the save mechanism into the game itself and now you can save your scores in the
+		middle of the game,
+		with the game even pausing! After about 30 more minutes of work, I have form validation working for the
+		textfield that asks for username
+		when determining what name to save the score with. For whatever reason, form validation prevents the save
+		overlay from working.
+		However, there is real and working form validation in the textbox below the game that works when the game is
+		starting. I implemented another
+		solution for form validation within the overlay_save.dart where it doesn't execute any code if the textfield is
+		left blank.
+	</p>
+	<p>
+		It took about 2 hours on 11/30/24, but eventually I got the player to be able to collide with other copies of
+		itself! For a while,
+		the player would essentially lose half of their size in order to create an identical copy and eventually both
+		copies would be in the
+		same place and it would be dead weight, the player loses those resources. However, I have now made it so that
+		every 3 seconds, the players
+		check for collisions with themselves and this doesn't prevent the player from spliting. It also encourages
+		splitting, as now there is
+		little downside to splitting. It can allow you to have extra lives, and in the case you find you don't need to
+		split, you don't lose anything.
+	</p>
+	<p>
+		I've spent over 3 hours on audio (11/30/24). I was easily able to get audio to work for mobile by just following
+		along with our class lecture videos.
+		The problem is that audio doesn't work for chrome. I see no reason why it should be an issue. I've even tried 2
+		different packages for audio
+		(Flame Audio and just_audio). When I tried to implement either of those packages, audio wouldn't work anywhere.
+		I think I will just have to stick
+		with mobile development from now on. All of these packages say that their audio works on web.
+	</p>
+	<p>
+		Update: On 12/2/24, the background music played once for me on chrome. When I had to restart the app, background
+		music stopped playing. It hasn't
+		played a single other time, but I think the issue is definitely a chrome issue. Update 2: actually, typing new
+		code and hotreloading seems to
+		fix audio?! That's a weird fix but I will take it. I just have to make changes in the code to hear audio on a
+		laptop.
+		Update 3: This audio fix no longer works after adding a splash screens and app icons. Hotreloading breaks
+		sometimes.
+	</p>
+	<p>
+		On 12/2/24, I spent an hour trying to get the leaderboard to sort itself when it displays on the page. This
+		endeavor failed. I tried creating
+		a temporary list to hold all the scores. Then, I used a function from ChatGPT to convert scores back into their
+		strings from the leaderboard.
+		A for loop was going to iterate through the leaderboard and add the scores based on order of highest to lowest.
+		This was stored in a temporary
+		leaderboard, but as soon as I tried to replace the real leaderboard with the temporary leaderboard, things
+		broke. I often times couldn't collect
+		any cells to gain size as long as there was a name on the leaderboard. If you quickly load the leaderboard and
+		then resume the game, you could
+		play like normal, but even with all of that, the leaderboard was still in the wrong order!
+	</p>
+	<p>
+		On 12/2/24, I have discovered that Tabbar is really not meant to work with a Flame Game. Every time you swap
+		tabs, Flutter tries to create
+		a new instance of your game. This can lead to errors on screen or a game that seems to work but is actually
+		glitched!
+	</p>
+	<p>
+		On 12/5/24, I solved the Tabbar problems mentioned earlier. It took about 3 hours of work. ChatGPT was somewhat
+		helpful, some of my first
+		prompts to it did not solve the issue. However, when I mentioned to chat GPT that my tabbars were disposing my
+		gameProvider, ChatGPT
+		suggested putting my gameProvider at a higher level in the code (main for instance) so that the gameProvider
+		isn't destroyed when
+		tabs switch. It works like a charm! The game music will only stop when the app is fully closed though.
+	</p>
+</body>
+
+</html>
