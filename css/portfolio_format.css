@@ -159,6 +159,17 @@ video {
 	width: 50%;
 }
 
+.caption-container1 {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+#slideshow1{
+	width: 50%;
+}
+
 
 /* Below 850 pixels*/
 @media screen and (max-width:800pt) {
@@ -202,6 +213,10 @@ video {
 	}
 
 	.caption-container{
+		width: 100%;
+	}
+
+	#slideshow1{
 		width: 100%;
 	}
 
