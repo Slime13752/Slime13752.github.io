@@ -9,7 +9,8 @@
 	grid-template-areas:
 		'first-sketch'
 		'second-sketch'
-		'third-sketch';
+		'third-sketch'
+		'fourth-sketch';
 	width: 98%;
 	row-gap: 20px;
 }
@@ -72,6 +73,15 @@ h3 {
 	border-radius: 25px;
 }
 
+#fourth-sketch{
+	grid-area: fourth-sketch;
+	background-color: rgba(134, 35, 196, 0.8);
+	border: 7px solid rgba(94, 19, 169, 0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
 .single-grid-sketch {
 	display: grid;
 	grid-template-areas:
@@ -101,6 +111,14 @@ video {
 
 .left {
 	margin-left: -200px
+}
+
+.left2{
+	margin-left: -50px;
+}
+
+.white{
+	color: white;
 }
 
 .hide {
@@ -165,6 +183,15 @@ video {
 	padding: 2px 16px;
 	color: white;
 	width: 50%;
+}
+
+.caption-container2 {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+	width: 81%;
+	margin-left: 30px;
 }
 
 #slideshow1{
@@ -407,17 +434,6 @@ footer {
 	background-color: #03d588;/* Green */
 	border: none;
 	color: white;
-	padding: 15px 13px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 14px;
-	margin-bottom: 0px;
-}
-
-#pause {
-	background-color: #ece803;/* Yellow */
-	border: none;
-	color: #000;
 	padding: 15px 13px;
 	text-align: center;
 	text-decoration: none;

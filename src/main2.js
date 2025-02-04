@@ -95,19 +95,29 @@ const stopLoop = () => {
 
 loop();
 
+let isPlay = false;
+
 // make the play button work
 document.querySelector("#play").addEventListener('click', () => { 
-    loop(); 
-    buttonClicks += 1;
-    loop();
-    //console.log(buttonClicks);
+    if(isPlay){
+        loop(); 
+        buttonClicks += 1;
+        loop();
+        //console.log(buttonClicks);
+        isPlay = false;
+        document.querySelector("#play").innerHTML = "Pause Slideshow";
+    }
+    else{
+        stopLoop(); 
+        buttonClicks = 0; 
+        //console.log(buttonClicks);
+        isPlay = true;
+        document.querySelector("#play").innerHTML = "Play Slideshow";
+    }
+    
 }); 
 
 // make the pause button work
-document.querySelector("#pause").addEventListener('click', () => { 
-    stopLoop(); 
-    buttonClicks = 0; 
-    //console.log(buttonClicks);
-}); 
+//document.querySelector("#pause").addEventListener('click', () => { }); 
 
 export{imageDescription};
